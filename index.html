@@ -13,14 +13,14 @@ document.createElement("aside");
 <style>
 body { margin:0px; padding:0px; color:#CCC; font-family:Verdana, Geneva, sans-serif}
 header,footer,section,nav,aside { display:block}
-header { width:100%; height:45px; background-color:#333;}
+header { width:100%; height:45px; background-color:#333; position:fixed; top:0px}
 nav {  margin:0px auto; width:950px;}
 #logo { float:left;}
 #menu {float:right;}
 #menu ul {}
 #menu ul li { float:left; margin:0px 18px;}
-aside { float:left; width:18%; height:200px; border-radius:8px; border:1px solid;}
-section { float:right; width:70%}
+aside { float:left; width:18%; height:200px; border-radius:8px; border:1px solid;margin-top: 45px;}
+section { float:right; width:70%; margin-top: 45px;}
 #main {margin:0px auto; width:950px; margin-top:5px}
 article { width:300px; height:250px; float:left; border:1px solid;margin-bottom: 13px;
     margin-left: 26px;}
@@ -35,7 +35,7 @@ article { width:300px; height:250px; float:left; border:1px solid;margin-bottom:
 </header>
 <div id="main">
 <aside>Side</aside>
-<section><article>1</article><article>2</article><article>3</article><article>4</article></section>
+<section><article>1</article><article>2</article><article>3</article><article>4</article><article>5</article><article>6</article><article>7</article></section>
 </div>
 <footer></footer>
 </body>
